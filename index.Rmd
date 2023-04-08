@@ -43,11 +43,13 @@ UCs_NF <- rgdal::readOGR("UCs_NF.shp")
 
 A "Lente Ecológica" faz um paralelo entre as metodologias utilizadas no projeto e como a sociedade percebe o meio ambiente. O objetivo do projeto é ajustar o 'foco' dos participantes em relação a fauna e flora, e como o ser humano se observa nessas relações. Utilizando a observação direta como meio de inserção dos participantes no contexto ambiental, as lentes das câmeras e *smartphones* e as mídias sociais serão as ferramentas do aprendizado empírico-científico e sensibilização ambiental dos participantes.
 
+Para saber mais, procure as nossas redes sociais (@lenteecologica)!
+
 ***
 
 ```{r, out.width=220}
 
-knitr::include_graphics("lente_ecologica.png", error = FALSE)
+knitr::include_graphics("logo_Instagram.png", error = FALSE)
 
 ```
 
@@ -337,7 +339,7 @@ renderTable({
 
 ## Row 3 {data-height="300"}
 
-### Temporal
+### Variação temporal das ocorrências
 
 ```{r}
 
