@@ -16,6 +16,21 @@ library(leaflet)
 iris <- read.csv("~/git/ciencia_colab/data/iris_mod.csv", header = T)
 ```
 
+
+# Lista de participantes
+
+## Row
+
+### Participantes do curso em 2023-01
+
+```{r}
+
+read.csv("participantes.csv", header = TRUE, sep = ";") %>% 
+  knitr::kable()
+
+```
+
+
 # Iris
 
 ## Row
@@ -104,3 +119,4 @@ dori %>%
             opacity = 0.5)
 
 ```
+
