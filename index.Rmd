@@ -31,8 +31,8 @@ library(plotly)
 occ_NF <- read.csv("GBIF_occ_NF_03may2022_ameaca.csv", header = T) %>% 
     mutate(ameacada = ifelse(is.na(Categoria.de.Ameaça), "não", "sim"))
 
-NORFLU <- rgdal::readOGR("map.shp")
-UCs_NF <- rgdal::readOGR("UCs_NF.shp")
+NORFLU <- sf::st_read("map.shp")
+UCs_NF <- sf::st_read("UCs_NF.shp")
 
 ```
 
